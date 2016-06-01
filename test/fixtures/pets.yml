@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  species: MyText
+  breed: MyText
+  age: 1
+  name: MyText
+  photo_url: MyText
+
+two:
+  species: MyText
+  breed: MyText
+  age: 1
+  name: MyText
+  photo_url: MyText
