@@ -24,11 +24,12 @@ pet_data.each_pair do |shelter_name, pets|
 
     pets.each do |pet|
       Pet.create!({
-        species:    info[:species],
-        breed:      info[:breed],
-        age:        info[:age],
-        name:       info[:name],
-        photo_url:  info[:photo_url]
+        species:    pet[:species],
+        breed:      pet[:breed],
+        age:        pet[:age],
+        name:       pet[:name],
+        photo_url:  pet[:photo_url],
+        shelter:    current_shelter
       })
     end
   end

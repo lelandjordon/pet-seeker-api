@@ -6,7 +6,7 @@ class CreatePets < ActiveRecord::Migration
       t.integer :age
       t.text :name
       t.text :photo_url
-      t.integer :shelter_id
+
       t.timestamps null: false
     end
   end
