@@ -7,12 +7,12 @@ class PetsController < ApplicationController
   end
 
   def show
-    @shelter = Shelter.find(params[:shelter_id])
-    @pets = Pet.all.order(:created_at)
+    @pets = Pet.find(params[:id])
+    # @pets = Pet.all.order(:created_at)
 
     render json: @pets.to_json, status: :ok
   end
-  
+
   def create
     @shelter = Shelter.find(params[:shelter_id])
     @pet = @shelter.pets.build(pet_params)
