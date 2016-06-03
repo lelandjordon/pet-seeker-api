@@ -13,8 +13,7 @@ class PetsController < ApplicationController
   end
 
   def create
-    # @shelter = Shelter.find(params[:shelter_id])
-    @pet = @shelter.pets.build(pet_params)
+    @pet = Pet.new(pet_params)
 
     if @pet.save
       render json: @pet.to_json, status: :created
@@ -38,9 +37,9 @@ class PetsController < ApplicationController
     render json: {message: "success"}, status: :ok
   end
 
-  # private
-  #    Never trust parameters from the scary internet, only allow the white list through.
-  #   def wine_type_params
-  #     params.require(:wine_type).permit(:type, :graphic_url, :food_id)
-  #   end
+  private
+    #  Never trust parameters from the scary internet, only allow the white list through.
+    def pet_params
+      params.require(:pet).permit(:name, :age, :breed, :species, :photo_url)
+    end
 end
