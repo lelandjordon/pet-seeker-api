@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Allow CORS requests
 gem 'rack-cors', require: 'rack/cors'
 
+# Should manage CRSF cookie and something like that
+gem 'angular_rails_csrf'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
