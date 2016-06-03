@@ -29,6 +29,9 @@ gem 'rack-cors', require: 'rack/cors'
 # Should manage CRSF cookie and something like that
 gem 'angular_rails_csrf'
 
+# for deploying to Heroku
+gem 'rails_12factor', group: :production
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
