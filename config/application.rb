@@ -29,5 +29,6 @@ module PetSeekerApi
     #         resource '*', :headers => :any, :methods => :any
     #     end
     # end
+    
   end
 end
