@@ -1,27 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This API was written to serve data to my Pet Seeker front-end app.  Together, they
+make up my submission for Project 4 of the Web Development Immersive course I
+attended at General Assembly in DC.
 
-Things you may want to cover:
+Front end, written with AngularJS:
+https://github.com/lelandjordon/pet-seeker
 
-* Ruby version
+Seeded data should be written into the pet_data.rb and shelter_data.rb files,
+then use CLI commands rake `rake db:drop`, etc, to seed them locally.
 
-* System dependencies
+Special gems added included rack-cors and a few others.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
