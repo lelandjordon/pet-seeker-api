@@ -29,7 +29,7 @@ pet_data.each_pair do |shelter_name, pets|
         age:        pet[:age],
         name:       pet[:name],
         photo_url:  pet[:photo_url],
-        shelter:    current_shelter
+        shelter_id: current_shelter.id
       })
     end
   end

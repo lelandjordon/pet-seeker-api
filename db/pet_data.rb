@@ -21,6 +21,7 @@ def get_pet_data
               :name =>       "Stinky",
               :photo_url =>  "http://3.bp.blogspot.com/_LTWqGVqO5uQ/TNkA9qzVTSI/AAAAAAAAAR8/gLE_gv9hAFc/s1600/Boxer3523.jpg"
             },
+            {
               :species =>    "Horse",
               :breed =>      "Draft Horse",
               :age =>        2,
