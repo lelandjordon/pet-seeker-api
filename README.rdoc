@@ -4,6 +4,9 @@ This API was written to serve data to my Pet Seeker front-end app.  Together, th
 make up my submission for Project 4 of the Web Development Immersive course I
 attended at General Assembly in DC.
 
+The JSON output itself is viewable here at Heroku:
+https://pet-seeker-api.herokuapp.com/pets
+
 Front end, written with AngularJS:
 https://github.com/lelandjordon/pet-seeker
 
